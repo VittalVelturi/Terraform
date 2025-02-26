@@ -9,7 +9,7 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 variable "bool_true" {
-  description = "AMI of Amazon linux Ec2 instance"
+  description = "Association of public ip to Amazon linux Ec2 instance"
   type        = bool
   default     = true
 }
